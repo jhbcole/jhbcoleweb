@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<script type="text/javascript">
+function func (i) {
+	var e = document.getElementById(i);
+	if(e.style.display == 'block')
+		e.style.display='none';
+	else
+		e.style.display='block';
+}
+</script>
+
+<link href="jhbcoleStyle.css" rel="stylesheet" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+<title>jhbcole - Interns Wanted Idea</title>
+
+</head>
+<body>
+<header>
+<a id="g" href="https://plus.google.com/108369090517236272776/about"></a>
+<center><h1>John Cole</h1><center>
+<a id="twitter" style="text-decoration:none;" href="http://www.twitter.com/#!/jhbcole">
+</a>
+<a id="lin" style="text-decoration:none;" href="http://linkedin.com/in/jhbcole">&nbsp;</a>
+</header>
+
+
+<div class='internswanted'>
+	<h3>Using Geolocation as a Method of Fraud Detection</h3>
+	<img src='images/internswanted.png'>&nbsp;</img>
+	<p>
+		Recently, I tweeted that an idea for detecting fraud would be to use the geolocation technology in cell phones to check for where the person who owns the credit card is and compare it against where the transaction happened. This seems like a good idea, but also could have some issues. I'll talk about both.
+	</p>
+	<p>
+		First off, the benefits and the parts that work well. This ideas is based upon the idea that we all carry our mobile phones with us just about everywhere we go. We have it with us at all times of the day. So we can use the cell phone to locate the person. Once we have the person's location via the phone, we can check the location with the location of the transaction. This would work well with stores and shops, where the person is physically present in the store making a purchase. This is a convenient way to check that the person is actually in the store buying the goods. This can be done on every purchase, so that no matter how small or large the purchase is, it can be verified geographically. This could provide a faster recognition of fraud.
+	</p>
+	<p>
+		There are some issues with just checking the geographic location. A lot of times today we shop online, which makes verifying a geographic location more difficult. We aren't sure where the user is when they are purchasing things through the sites. This prevents a problem, because although we could check the person's cell phone location, we don't know where the transaction occurred to begin with! A solution to this is to have the online site to have the online site send the IP address of the computer on which the transaction took place along to the credit card company, who can then look up where the IP is located. This can used as a crude method of locating the transaction. However, IP lookups aren't always accurate, and could cause more confusion than necessary.
+	</p>
+	<p>
+		Another issue with online shopping is many people can use that same credit card for legitimate means. This comes up a lot in families, where the children use their parents' credit cards for online shopping. This can cause issues when the children and parents aren't in the same geographic location. For example, the child could be at college and make a purchase on the parents card. This can cause issues with using geographic location as a means for fraud detection because this scenario might raise a red flag, but in reality it's fine. 
+	</p>
+	<p>
+		This issues can be resolved using more traditional means, such as a phone call to double check the card holder is aware of the purchase, or using other methods of fraud detection already in place.
+	</p>
+	<p>
+		Using geolocation of cell phones isn't going to replace all other methods of fraud detection, but would be there simply to complement the existing measures already established. 
+	</p>
+	<!--<h3>Implementation Ideas:</h3>
+	<p>
+		Ideas are great, but implementing them can be difficult. What I was thinking of for this idea, was a mobile app that the user downloads. This could also just as a part of a virtual wallet app as well. However, I feel that this should be opt-in, and not turned on by default.
+	</p>-->
+</div>
+<footer>
+&nbsp;
+</footer>
+</body>
+</html>
+
