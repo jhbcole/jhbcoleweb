@@ -5,11 +5,14 @@
 }
 
 body{
-
+	background-color: #EEEEEE;
 }
 
 header{
-
+	margin-top: 25px;
+	display: -webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
 }
 
 footer{
@@ -100,15 +103,59 @@ li{
 	background-position: top;
 }
 
-/* NAV */
-nav li{
-	float: left;
-	padding: 5px;
-	border-top: 1px solid #000000;
-	border-bottom: 1px solid #000000;
+/* Header */
+header h1{
+	font-size:36px;
 }
+
+header ul{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+header li{
+	font-family: Avenir;
+	color: #FFFFFF;
+	float:left;
+	font-size: 48px;
+	margin: 3px;
+	height: 66px;
+	width: 66px;
+	background-color: #999999;
+}
+
+/* NAV */
 
 nav{
 	text-align: center;
 	height:100%;
+	width:100%;
+	margin: 10px 0 0 0;
+	padding: 0px;
+	display:-webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+}
+
+nav ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+nav li{
+	float:left;
+}
+
+nav li a{
+	float: left;
+	text-decoration: none;
+	color: #000000;
+	font-family: Avenir;
+	font-size: 24px;
+	padding: 5px 37px;
+	margin: 0px;
+
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
 }
