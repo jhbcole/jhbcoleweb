@@ -1,0 +1,114 @@
+/*Main formatting*/
+@font-face{
+	font-family: CallunaSans;
+	src: url("CallunaSansRegular.otf");
+}
+
+body{
+
+}
+
+header{
+
+}
+
+footer{
+
+}
+
+article{
+
+}
+
+aside{
+
+}
+
+nav{
+
+}
+
+div{
+
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+p{
+
+}
+
+a{
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+
+}
+
+
+/* SOCIAL */
+#social{
+	margin: -20px 0 10px 0;
+	height: 30px;
+	width: 100%;
+	float: right;
+}
+#social li{
+	float:left;
+	margin: 0px 5px;
+}
+#social #twitter{
+	background:url("images/twitter.png") no-repeat;
+		width:43px;
+	height:30px;
+	background-position:bottom;
+	display:block;
+	-webkit-transition:.5s;
+	-o-transition:.5s;
+	-moz-transition:.5s;
+	z-index: 4;
+}
+
+#social #twitter:hover{
+	background-position:top;
+}
+
+#social #linkedin{
+	background: url("images/lin.png") no-repeat;
+	width: 43px;
+	height: 30px;
+	display: block;
+	background-position: bottom;
+	-webkit-transition:.5s;
+	-o-transition:.5s;
+	-moz-transition:.5s;
+	z-index: 4;
+}
+
+#social #linkedin:hover{
+	background-position: top;
+}
+
+/* NAV */
+nav li{
+	float: left;
+	padding: 5px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+nav{
+	text-align: center;
+	height:100%;
+}
