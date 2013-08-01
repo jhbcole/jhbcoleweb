@@ -159,3 +159,21 @@ nav li a{
 	border-top: 1px solid #000000;
 	border-bottom: 1px solid #000000;
 }
+
+/* CONTACT */
+#contact a{
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+	display: -webkit-box;
+	text-decoration: none;
+	color: #000;
+	margin-top: 25px;
+	-webkit-transition:.25s;
+	-o-transition:.25s;
+	-moz-transition:.25s;
+	font-size: 32px;
+}
+
+#contact a:hover{
+	color: #999;
+}
